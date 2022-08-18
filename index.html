@@ -2,90 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM Manipulation</title>
-    <link rel="icon" type="image/x-icon" href="#">
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-        }
-    </style>
-
-    <!-- Connect Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation</title>
 </head>
 
-<body class="bg-zinc-800">
-
-    <header class="mt-14 mb-10">
-        <div class="container mx-auto text-center text-zinc-100	">
-            <h1 class="text-5xl font-semibold">DOM Manipulation</h1>
-            <p class="text-2xl mt-3">Bank Withdraw and Deposit</p>
-        </div>
-    </header>
-
-    <main>
-        <div class="container mx-auto">
-            <section id="balance-summary" class="w-8/12 mx-auto mb-14">
-                <div class="grid gap-4 grid-cols-3">
-                    <div class="bg-indigo-600 text-zinc-100 rounded-lg p-7">
-                        <h3 class="text-2xl font-medium">Deposit</h3>
-                        <p class="text-4xl mt-2">$<span id="deposit-amount">00</span></p>
-                    </div>
-                    <div class="bg-green-600 text-zinc-100 rounded-lg p-7">
-                        <h3 class="text-2xl font-medium">Withdraw</h3>
-                        <p class="text-4xl mt-2">$<span id="withdraw-amount">00</span></p>
-                    </div>
-                    <div class="bg-teal-600 text-zinc-100 rounded-lg p-7">
-                        <h3 class="text-2xl font-medium">Balance</h3>
-                        <p class="text-4xl mt-2">$<span id="balance-amount">1200</span></p>
-                    </div>
-                </div>
-            </section>
-
-            <section id="balance-input" class="w-8/12 mx-auto">
-                <div class="grid gap-4 grid-cols-2">
-                    <div class="bg-emerald-700 text-zinc-100 rounded-lg p-7">
-                        <h3 class="text-2xl font-medium">Please Deposit</h3>
-                        <div class="text-sm mt-3">
-                            <input id="deposit-field" class="block w-full px-4 py-2 rounded font-medium text-black"
-                                type="text" placeholder="$ amount you want to deposit">
-                            <button id="btn-deposit"
-                                class="bg-emerald-900 hover:bg-emerald-800 text-white py-2 px-7 rounded mt-3">Deposit</button>
-                        </div>
-                    </div>
-                    <div class="bg-emerald-700 text-zinc-100 rounded-lg p-7">
-                        <h3 class="text-2xl font-medium">Please Withdraw</h3>
-                        <div class="text-sm mt-3">
-                            <input id="withdraw-field" class="block w-full px-4 py-2 rounded font-medium text-black"
-                                type="text" placeholder="$ amount you want to withdraw">
-                            <button id="btn-withdraw"
-                                class="bg-emerald-900 hover:bg-emerald-800 text-white py-2 px-7 rounded mt-3">Withdraw</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </main>
-
-    <footer>
-        <div class="container mx-auto text-center text-zinc-100	">
-            <p class="text-sm mt-8">Design width Tailwind CSS</p>
-        </div>
-    </footer>
-
-
-    <!-- Coonect Script File -->
-    <script src="script.js"></script>
+<body>
+  <a href="bank/index.html">Bank</a>
+  <a href="calculator/">Calculator</a>
 </body>
 
 </html>
