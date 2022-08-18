@@ -1,0 +1,44 @@
+#main #calculator {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#main #calculator-display {
+  min-height: 230px;
+}
+
+#main button {
+  padding: 10px 16px;
+  background-color: #454955;
+  /* background-color: #282B33; */
+  border-radius: 8px;
+}
+
+#main button:hover {
+  background-color: #383b44;
+}
+
+#digit_plus {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+#digit_minus {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+#digit_division {
+  grid-column: 4;
+  grid-row: 3;
+}
+
+#digit_multiplication {
+  grid-column: 4;
+  grid-row: 4;
+}
+
+#digit_0 {
+  grid-column: 2;
+  grid-row: 4;
+}
